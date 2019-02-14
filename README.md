@@ -11,4 +11,6 @@ oc new-app -e POSTGRESQL_USER=dev \
 mvn package fabric8:deploy -Popenshift -DskipTests
 
 oc rollout status dc/rhoar-training
- 
+
+#URL de 3scale TG
+https://tg-admin.3scale.net/apiconfig/services/2555417745472/applications/1409615103943
